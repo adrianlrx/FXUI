@@ -69,8 +69,8 @@
 	-fx-font-size: 18px;
 	-fx-font-weight: bold;
 	-fx-effect: 
-		dropshadow( one-pass-box, rgba(255,255,255, 0.2) , 1, 0.0, 1);
-		dropshadow( two-pass-box, rgba(255,255,255, 0.2) , 1, 0.0, 1);
+		dropshadow( one-pass-box, rgba(255,255,255, 0.2) , 1, 0.0, 1),
+		dropshadow( two-pass-box, rgba(255,255,255, 0.2) , 1, 0.0, 1),
 		dropshadow( three-pass-box, rgba(255,255,255, 0.2) , 1, 0.0, 1);
 }
 
