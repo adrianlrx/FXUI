@@ -1,0 +1,26 @@
+
+root{
+	-fx-background-color: #ff0000;
+}
+
+.labelCommon{
+	-fx-font-size: 12px;
+	-fx-font-weight: bold;
+	-fx-text-fill: #f3f3f3;
+	-fx-effect: dropsahdow( gaussian, rgba(0,0,0,0.5), 0,0,0,1);
+}
+
+.textCommon{
+	-fx-font-size: 32px;
+	-fx-font-family: "Arial Black";
+	-fx-fill: #818181;
+	-fx-effect: innersahdow( three-pass-box, rgba(0,0,0,0.5), 6, 0.0, 0, 2);
+}
+
+.buttonCommon{
+	-fx-text-fill: white;
+	-fx-font-family: "Arial Narrow";
+	-fx-font-weight: bold;
+	-fx-background-color: linear-gradient(#61a2b1, #2a5058);
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0.0, 0, 1);
+}
